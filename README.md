@@ -48,6 +48,6 @@ A aplicação segue o padrão de arquitetura em camadas do Spring Boot, garantin
 ### 1. Inicialização do Servidor
 Abra o projeto na sua IDE (ex: IntelliJ IDEA) e execute a classe `FlowsimuladoApplication.java`. O Spring Boot iniciará um servidor embutido Apache Tomcat na porta **8080** e criará o banco de dados temporário H2 em memória automaticamente.
 
-### 2. Simulação do Disparo (Gatilho)
+### 2. Simulação do Disparo 
 
 Cole exatamente esse caminho no PowerShell "Invoke-RestMethod -Uri "http://localhost:8080/api/pedidos" -Method Post -Body '{"nomePedido": "Meu Pedido do Salesforce"}' -ContentType "application/json""
